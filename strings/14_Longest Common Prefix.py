@@ -1,5 +1,5 @@
 class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
+    def longestCommonPrefix(self, strs) -> str:
         res = ""
 
         for i in range(len(strs[0])):

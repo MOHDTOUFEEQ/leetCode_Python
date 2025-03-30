@@ -1,5 +1,5 @@
 class Solution:
-    def candy(self, ratings: List[int]) -> int:
+    def candy(self, ratings):
         left = [1 for i in ratings]
         
         for i in range(1, len(left)):

@@ -1,5 +1,5 @@
 class Solution:
-    def insertGreatestCommonDivisors(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def insertGreatestCommonDivisors(self, head):
         if head is None or head.next is None:
             return head
         

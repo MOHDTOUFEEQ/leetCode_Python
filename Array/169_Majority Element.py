@@ -1,6 +1,6 @@
 # import collections
 class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
+    def majorityElement(self, nums) -> int:
         mapping = {}
         num = []
         for i in nums:

@@ -1,5 +1,5 @@
 class Solution:
-    def minimumTotal(self, triangle: List[List[int]]) -> int:
+    def minimumTotal(self, triangle) -> int:
         triangle.append([0] * (len(triangle) + 1))
         
         for i in range(len(triangle)-2,-1,-1):
